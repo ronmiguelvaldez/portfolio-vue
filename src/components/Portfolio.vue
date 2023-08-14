@@ -21,9 +21,11 @@ a {
 }
 video {
     max-width: 900px;
+    filter: brightness(70%);
     transition: .5s;
 }
 video:hover {
     max-width: 1000px;
+    filter: brightness(100%);
 }
 </style>
