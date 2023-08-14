@@ -15,7 +15,11 @@ export default {
 
 <style scoped>
 img {
-    max-width: 600px;
+    max-width: 700px;
     width: 100%;
+    transition: .5s;
+}
+img:hover {
+    max-width: 800px;
 }
 </style>
