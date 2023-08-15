@@ -14,6 +14,10 @@ export default {
 
 
 <style scoped>
+div {
+    background-color: #333;
+    color: #fff;
+}
 img {
     max-width: 700px;
     width: 100%;
