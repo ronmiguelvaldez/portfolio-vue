@@ -20,12 +20,12 @@ a {
     color: #fff;
 }
 video {
-    max-width: 900px;
+    max-width: 600px;
     filter: brightness(70%);
     transition: .5s;
 }
 video:hover {
-    max-width: 1000px;
+    max-width: 700px;
     filter: brightness(100%);
 }
 </style>
