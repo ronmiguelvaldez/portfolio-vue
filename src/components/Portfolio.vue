@@ -13,8 +13,8 @@ export default {
 <style scoped>
 div {
     min-height: 100vh;
-    background: #111;
-    color: #fff;
+    background: #555;
+    color: #111;
 }
 a {
     color: #fff;
