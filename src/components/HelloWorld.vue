@@ -13,12 +13,12 @@
 <style scoped>
 
 .header {
-  background-color: #333;
+  background-color: #111;
   min-height: 100vh;
   color: #fff;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 h3 {
   margin: 40px 0 0;
@@ -38,11 +38,16 @@ img {
   max-width: 500px;
   width: 50%;
   transform: scale(.95);
-  filter: grayscale(100%);
+  filter: blur(5px);
   transition: .5s;
+  animation: img 1.5s; 
 }
 img:hover {
-  filter: grayscale(0);
+  filter: blur(0);
   transform: scale(1);
 }
+/*@keyframes img {
+  from{filter: blur(100px);}
+  to{filter: blur(0);}
+}*/
 </style>
